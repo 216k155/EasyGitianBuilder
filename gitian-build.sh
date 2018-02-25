@@ -71,11 +71,11 @@ test -f gitian-builder/var/install.log && rm gitian-builder/var/install.log
 test -f gitian-builder/var/build.log && rm gitian-builder/var/build.log
 
 # Other Basic variables
-COIN=${VGITIAN_COIN:-bitcoin-abc}
+COIN=${VGITIAN_COIN:-lux}
 SIGNER=${VGITIAN_SIGNER:-"notconfiguredgitian@mazacoin.org"}
-VERSION=${VGITIAN_VERSION:-0.14.6}
+VERSION=${VGITIAN_VERSION:-4.2.0}
 commit=${VGITIAN_COMMIT:-false}
-url=${VGITIAN_URL:-"https://github.com/bitcoin-abc/bitcoin-abc"}
+url=${VGITIAN_URL:-"https://github.com/216k155/lux"}
 sigrepo=${VGITIAN_SIGREPO:-"https://github.com/bitcoin-core/gitian.sigs"}
 detachedsigrepo=${VGITIAN_DETACHEDSIGREPO:-"https://github.com/bitcoin-core/detached-sigs"}
 proc=${VGITIAN_PROC:-3}
